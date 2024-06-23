@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*fix*/
+html {
+    font-size: 1vw;
+}
+/*fonts*/
+@font-face {
+    font-family: Proxima Nova Regular;
+    src: url(assets/fonts/proxima/Proxima-Nova-Regular.otf);
+}
+@font-face {
+    font-family: Proxima Nova Bold;
+    src: url(assets/fonts/proxima/Proxima-Nova-Bold.otf);
+}
+@font-face {
+    font-family: Proxima Nova Semibold;
+    src: url(assets/fonts/proxima/Proxima-Nova-Semibold.otf);
+}
+
+/*For PC*/
+@media screen and (min-width: 1024px) {
+    html {
+        font-size: 16px;
+    }
+    #header .layout-header{
+        width: auto;
+        display: flex;
+        /* height: 7.375rem; */
+        padding: 1.25rem 6.25rem 0.28125rem 6.25rem;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-start;
+        gap: 0.84375rem;
+    }
+    #header .Frame-1000005465{
+        display: flex;
+        width: 87.5rem;
+        height: 2.5rem;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #header .Frame-9174{
+        display: flex;
+        width: 35.125rem;
+        height: 2.5rem;
+        padding: 0rem 1.5rem;
+        align-items: center;
+        gap: 0.5rem;
+        flex-shrink: 0;
+        border-radius: 1.25rem;
+        background: rgba(231, 237, 245, 0.50);
+    }
+    #header .Frame-9174 svg{
+        width: 1.5rem;
+        height: 1.5rem;
+        flex-shrink: 0;
+    }
+    #header .Frame-9174 input{
+        color: var(--PRIMARY-blue-700, #0D356E);
+        font-family: "Proxima Nova Regular",sans-serif;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+        background: rgba(231, 237, 245, 0.50);
+        border: 0px;
+        opacity: 0.5;
+    }
+    #header .Frame-1000005464{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 1rem;
+    }
+    #header .btn-instruction{
+        color: var(--PRIMARY-blue-500, #134A9B);
+        text-align: center;
+
+        font-family: "Proxima Nova Semibold",sans-serif;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 120%; 
+        letter-spacing: 0.0125rem;
+        display: flex;
+        height: 2.5rem;
+        padding: 0.5rem 1.5rem;
+        align-items: center;
+        gap: 0.5rem;
+        border-radius: 1.5rem;
+        border: none;
+        background: var(--SECONDARY-blue-50, #E8F8FB);
+    }
+    #header .btn-booking-now{
+        display: flex;
+        height: 2.5rem;
+        padding: 0.5rem 1.5rem;
+        align-items: center;
+        gap: 0.5rem;
+        border-radius: 1.5rem;
+        border: none;
+        background: var(--SECONDARY-blue-500, #1AB7DA);
+
+        color: var(--greyscaletext-0, #FFF);
+        text-align: center;
+
+        font-family: "Proxima Nova Semibold",sans-serif;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 120%; 
+        letter-spacing: 0.0125rem;
+    }
+    #header .Component-15{
+        display: flex;
+        width: 2.25rem;
+        height: 2.25rem;
+        padding: 0.375rem;
+        justify-content: center;
+        align-items: center;
+        border-radius: 1.25rem;
+        border: none;
+        background: var(--PRIMARY-blue-500, #134A9B);
+    }
+    #header .Frame-1000005346{
+        display: flex;
+        width: 87.5rem;
+        height: 2.5rem;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    #header .Frame-1000005331{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0.25rem;
+    }
+    #header .Frame-1000005168{
+        position: relative;
+        display: inline-block;
+    }
+    #header .Frame-1000005331 p{
+        color: var(--PRIMARY-blue-500, #134A9B);
+        text-align: center;
+
+        font-family: "Proxima Nova Semibold",sans-serif;
+        font-size: 0.875rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 120%;
+    }
+    #header .Frame-1000005487{
+        display: flex;
+        width: 35.9375rem;
+        height: 18.6875rem;
+        margin-top: 20px;
+        position: absolute;
+        border-radius: 1rem;
+        border: 2px solid var(--BACKGROUND-ELEVATION-5, #FFF);
+        background: #FFF;
+        box-shadow: 0px 12px 32px 0px rgba(27, 183, 218, 0.04), 2px 6px 30px 0px rgba(18, 75, 154, 0.04);
+        z-index: 1;
+    }
+    #header .Rectangle-34625111{
+        width: 18.6875rem;
+        height: 18.6875rem;
+        flex-shrink: 0;
+        border-top-left-radius: 1rem;
+        border-bottom-left-radius: 1rem;
+        background: linear-gradient(180deg, rgba(19, 74, 155, 0.00) 52.29%, rgba(19, 74, 155, 0.80) 78.67%, #134A9B 100%), url('../images/NAL_1866.jpg') lightgray 50% / cover no-repeat;
+    }
+    #header .Rectangle-34625111 p{
+        color: #FFF;
+        padding-top: 15.28rem;
+        text-align: center;
+        font-family: "Proxima Nova Bold",sans-serif;
+        font-size: 1.75rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%; 
+        letter-spacing: -0.0175rem;
+    }
+    #header .Rectangle-34625106{
+        position: relative;
+    }
+    #header .Frame-1000005507{
+        width: 10rem;
+        position: absolute;
+        top: 2.31rem;
+        left: 1.44rem;
+        display: inline-flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.75rem;
+    }
+    #header .Frame-1000005507 a{
+        text-decoration: none;
+        color: var(--PRIMARY-blue-500, #134A9B);
+        /* WEB/BODY1/SEMI BOLD */
+        font-family: "Proxima Nova Semibold",sans-serif;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 150%;
+    }
+    #header .Frame-1000005339{
+        position: absolute;
+        top: 16.2rem;
+        right: 1.88rem;
+        display: inline-flex;
+        align-items: center;
+        gap: 0.375rem;
+    }
+    #header .Frame-1000005339 a{
+        color: var(--SECONDARY-blue-500, #1AB7DA);
+
+        font-family: "Proxima Nova Bold",sans-serif;
+        font-size: 0.875rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%; 
+        letter-spacing: 0.00875rem;
+        text-decoration: none;
+    }
+    #header .Frame-1000005339 svg{
+        width: 1.125rem;
+        height: 0.9375rem;
+    }
+    #header .Frame-1000005486{
+        margin-top: 20px;
+        position: absolute;
+        width: 50.25rem;
+        height: 18.6875rem;
+        border-radius: 1rem;
+        border: 2px solid var(--BACKGROUND-ELEVATION-5, #FFF);
+        background: #FFF;
+
+        box-shadow: 0px 12px 32px 0px rgba(27, 183, 218, 0.04), 2px 6px 30px 0px rgba(18, 75, 154, 0.04);
+    }
+}
+
+/*For mobile*/
+@media only screen and (max-width: 480px) {
+
+}
+
+/*For tablet*/
+@media (min-width: 481px) and (max-width: 1023px) {
+    html {
+        font-size: 12px;
+    }
+}
