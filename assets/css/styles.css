@@ -187,10 +187,8 @@ html {
         position: relative;
     }
     #header .Frame-1000005507{
-        width: 10rem;
-        position: absolute;
-        top: 2.31rem;
-        left: 1.44rem;
+        margin-top: 2.31rem;
+        margin-left: 1.44rem;
         display: inline-flex;
         flex-direction: column;
         align-items: flex-start;
@@ -206,10 +204,13 @@ html {
         font-weight: 600;
         line-height: 150%;
     }
+    .Rectangle-34625106{
+        display: flex;
+        flex-direction: column;
+    }
     #header .Frame-1000005339{
-        position: absolute;
-        top: 16.2rem;
-        right: 1.88rem;
+        margin-left: 8.73rem;
+        margin-top: 7.89rem;
         display: inline-flex;
         align-items: center;
         gap: 0.375rem;
@@ -230,6 +231,7 @@ html {
         height: 0.9375rem;
     }
     #header .Frame-1000005486{
+        display: flex;
         margin-top: 20px;
         position: absolute;
         width: 50.25rem;
@@ -239,6 +241,269 @@ html {
         background: #FFF;
 
         box-shadow: 0px 12px 32px 0px rgba(27, 183, 218, 0.04), 2px 6px 30px 0px rgba(18, 75, 154, 0.04);
+    }
+    #header .Rectangle-34625106{
+        display: flex;
+        flex-direction: column;
+    }
+    #header .Frame-1000005508{
+        display: inline-flex;
+        align-items: flex-start;
+        gap: 3.75rem;
+    }
+    #header .Frame-1000005507{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.75rem;
+    }
+    #header .Frame-1000005340{
+        margin-left: 23.16rem;
+        margin-top: 4.97rem;
+        display: inline-flex;
+        align-items: center;
+        gap: 0.375rem;
+    }
+    #header .Frame-1000005340 a{
+        color: var(--SECONDARY-blue-500, #1AB7DA);
+
+        font-family: "Proxima Nova Bold",sans-serif;
+        font-size: 0.875rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%; 
+        letter-spacing: 0.00875rem;
+        text-decoration: none;
+    }
+    #header .Frame-1000005340 svg{
+        width: 1.125rem;
+        height: 0.9375rem;
+    }
+
+    #login .container{
+        overflow: hidden;
+        position: relative;
+    }
+    #login .svg{
+        position: absolute;
+        z-index: 1;
+    }
+    #login .layout-content{
+        position: relative;
+        height: 52rem;
+        flex-shrink: 0;
+        background: var(--PRIMARY-blue-600, #0F3F87);
+    }
+    #login .Frame-1000007321{
+        position: absolute;
+        top: 21.065rem;
+        left: 6.38rem;
+        display: flex;
+        flex-direction: column;
+        gap: 0.81rem;
+    }
+    #login .Frame-1000007321 p{
+        color: #FFF;
+        
+        font-family: "Proxima Nova Bold",sans-serif;
+        font-size: 3rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%; 
+        letter-spacing: -0.03rem;
+    }
+    #login .Frame-1000007321 .main{
+        color: var(--SECONDARY-blue-500, #1AB7DA);
+
+        font-family: "Proxima Nova Bold",sans-serif;
+        font-size: 4rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%; 
+        letter-spacing: -0.02rem;
+    }
+    #login .Group-1000004197{
+        position: absolute;
+        left: 4.25rem;
+        top: 35.065rem;
+    }
+    #login .Ellipse-2140{
+        position: absolute;
+        right: 37.19rem;
+        top: 37.745rem;
+        width: 97.3125rem;
+        height: 97.3125rem;
+        flex-shrink: 0;
+        border-radius: 97.3125rem;
+        background: var(--PRIMARY-blue-400, #1E60C1);
+        filter: blur(135.64999389648438px);
+    }
+    #login .Ellipse-2141{
+        position: absolute;
+        left: 44.81rem;
+        bottom: 33.13rem;
+        width: 97.3125rem;
+        height: 97.3125rem;
+        flex-shrink: 0;
+        border-radius: 97.3125rem;
+        background: var(--PRIMARY-blue-400, #1E60C1);
+        filter: blur(135.64999389648438px);
+    }
+    #login .image-hold-smartphone{
+        position: absolute;
+        bottom: -3.7525rem;
+        right: 0;
+        z-index: 2;
+        width: 48rem;
+        height: 45rem;
+        flex-shrink: 0;
+    }
+    #login .Frame-1000007047{
+        margin-top: 3.7525rem;
+        position: absolute;
+        top: 8.37rem;
+        right: 14rem;
+        width: 27.8rem;
+        height: 49.375rem;
+        flex-shrink: 0;
+        border-radius: 1.7375rem;
+        background: linear-gradient(180deg, #FFF 0%, rgba(255, 255, 255, 0.00) 117.85%);
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #login .Group-1000004196{
+        z-index: 3;
+        width: 5.47719rem;
+        height: 5.4375rem;
+        flex-shrink: 0;
+    }
+    #login .title-login{
+        color: var(--PRIMARY-blue-600, #0F3F87);
+
+        font-family: "Proxima Nova Bold",sans-serif;
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%; 
+    }
+    #login .Form-login{
+        display: flex;
+        
+        padding: 2rem 2rem 0.375rem 2rem;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-start;
+        gap: 0.5625rem;
+    }
+    #login .Frame-1000005497{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 0.75rem;
+        align-self: stretch;
+    }
+    #login .Frame-1000005383{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1.25rem;
+        flex: 1 0 0;
+    }
+    #login .Frame-1000007040{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.3125rem;
+        align-self: stretch;
+    }
+    #login .Frame-1000007040 p{
+        align-self: stretch;
+        color: var(--greyscaletext-70, #313131);
+
+        font-family: "Proxima Nova Semibold",sans-serif;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 150%; /* 1.5rem */
+    }
+    #login .Frame-16{
+        z-index: 3;
+        display: flex;
+        width: 20.4rem;
+        height: 1.5rem;
+        padding: 0.75rem 1.25rem;
+        justify-content: space-between;
+        align-items: center;
+        flex-shrink: 0;
+        align-self: stretch;
+        border-radius: 1.5rem;
+        border: none;
+        color: black;
+        background: var(--greyscaletext-0, #FFF);
+    }
+    #login .text-forgotpassword{
+        color: var(--greyscaletext-0, #FFF);
+        text-align: center;
+        font-family: "Proxima Nova Semibold",sans-serif;
+        font-size: 0.8685rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 120%; 
+        letter-spacing: 0.01088rem;
+    }
+    #login .btn-login{
+        display: inline-flex;
+        padding: 0.5rem 0.5rem 0.5rem 1.5rem;
+        align-items: center;
+        gap: 0.5rem;
+        border-radius: 1.5rem;
+        background: var(--PRIMARY-blue-500, #134A9B);
+        border: none;
+
+        color: var(--greyscaletext-0, #FFF);
+        text-align: center;
+
+        font-family: "Proxima Nova Semibold",sans-serif;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 120%; 
+        letter-spacing: 0.0125rem;
+    }
+    #login .Frame-1000005541{
+        display: flex;
+        width: 2rem;
+        height: 2rem;
+        align-items: center;
+        justify-content: center;
+        border-radius: 1.25rem;
+        background: #FFF;
+    }
+    #login .layout-btn{
+        display: flex;
+        align-items: center;
+    }
+    #login .text-questions{
+        color: #000;
+        text-align: center;
+        font-family: "Proxima Nova Regular",sans-serif;
+        font-size: 0.8685rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 120%; 
+        letter-spacing: 0.01088rem;
+    }
+    #login .register-now{
+        color: var(--PRIMARY-blue-700, #0D356E);
+        text-align: center;
+        font-family: "Proxima Nova Semibold",sans-serif;
+        font-size: 0.8685rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 120%; 
+        letter-spacing: 0.01088rem;
     }
 }
 
