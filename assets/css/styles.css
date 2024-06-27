@@ -505,6 +505,279 @@ html {
         line-height: 120%; 
         letter-spacing: 0.01088rem;
     }
+    #for-us .Rectangle-34625171{
+        margin-top: 7.375rem;
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        height: 43.16513rem;
+        flex-shrink: 0;
+        background: url('../images/Rectangle\ 34625171.png') no-repeat center / cover, #D9D9D9;
+
+    }
+    #for-us .bluer-2212{
+        width: 100rem;
+        height: 43.16513rem;
+        flex-shrink: 0;
+        background: linear-gradient(266deg, rgba(255, 255, 255, 0.18) 28.66%, rgba(255, 255, 255, 0.72) 50.5%, rgba(255, 255, 255, 0.81) 56.96%, rgba(255, 255, 255, 0.90) 78.26%);
+    }
+    #for-us .Frame-1000005542{
+        position: absolute;
+        top: 3.37rem;
+        left: 6.16rem;
+        display: flex;
+        height: 1.1875rem;
+        align-items: flex-start;
+        gap: 0.5rem;
+        flex-shrink: 0;
+
+        color: var(--PRIMARY-blue-400, #1E60C1);
+
+        font-family: "Proxima Nova Regular",sans-serif;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 120%; /* 1.2rem */
+        letter-spacing: -0.01rem;
+    }
+    #for-us .Frame-1000005542 .main{
+        color: var(--PRIMARY-blue-500, #134A9B);
+
+        font-family: "Proxima Nova Bold",sans-serif;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%; /* 1.2rem */
+        letter-spacing: -0.01rem;
+    }
+    #for-us .title-msc{
+        width: 38.12894rem;
+        height: 10.55131rem;
+        flex-shrink: 0;
+        position: absolute;
+        top: 13.1rem;
+        left: 6.16rem;
+        color: var(--PRIMARY-blue-500, #134A9B);
+        text-align: justify;
+        font-family: "Proxima Nova Bold",sans-serif;
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 130%; 
+        letter-spacing: 0.005rem;
+    }
+    #for-us .title-msc span{
+        color: var(--SECONDARY-blue-500, #1AB7DA);
+        font-family: "Proxima Nova Bold",sans-serif;
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 130%;
+        letter-spacing: 0.005rem;
+    }
+    #for-us .Group-1000004197{
+        position: absolute;
+        left: 80.59rem;
+        top: -7.5rem;
+    }
+    #for-us .Frame-1000005733{
+        display: flex;
+        width: 84.5rem;
+        align-items: flex-start;
+        gap: 1.5rem;
+        position: absolute;
+        top: 33.19rem;
+        left: 6.15rem;
+    }
+    #for-us .Frame-1000005729{
+        display: flex;
+        padding: 1rem 1.5rem;
+        align-items: center;
+        gap: 1.5rem;
+        flex: 1 0 0;
+        border-radius: 1rem;
+        border: 1px solid var(--SECONDARY-blue-100, #B8E9F4);
+        background: var(--greyscaletext-0, #FFF);
+    }
+    #for-us .Frame-1000005729 p{
+        width: 11.30138rem;
+        color: var(--PRIMARY-blue-500, #134A9B);
+        font-family: "Proxima Nova Bold",sans-serif;
+        font-size: 1.5rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%; /* 1.8rem */
+        letter-spacing: -0.015rem;
+    }
+    #for-us .Component-187{
+        display: flex;
+        padding: 5.66994rem 6.2645rem 0rem 6.25rem;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-start;
+        gap: 2.8745rem;
+        background: var(--PRIMARY-blue-600, #0F3F87);
+    }
+    #for-us .chosse-top{
+        color: var(--greyscaletext-0, #FFF);
+        text-align: justify;
+
+        font-family: "Proxima Nova Bold",sans-serif;
+        font-size: 3rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%; /* 3.6rem */
+        letter-spacing: -0.03rem;
+    }
+    #for-us .chosse-top span{
+        color: var(--SECONDARY-blue-400, #45DDFF);
+                
+        font-family: "Proxima Nova Bold",sans-serif;
+        font-size: 3rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%;
+        letter-spacing: -0.03rem;
+    }
+    #for-us .Rectangle-34625240{
+        position: relative;
+        width: 87.4855rem;
+        height: 13.03738rem;
+        flex-shrink: 0;
+        border-radius: 1rem;
+        border: 1px solid var(--PRIMARY-blue-300, #6186BC);
+        background: linear-gradient(90deg, #1B5FC1 -0.81%, #1B5FC1 28.75%, rgba(30, 96, 193, 0.80) 54.04%, rgba(54, 121, 221, 0.00) 98.22%), url('../images/Rectangle\ 34625240.png') lightgray 50% / cover no-repeat;
+    }
+    #for-us .Rectangle-34625240 p{
+        position: absolute;
+        top: 3.14rem;
+        left: 3.37rem;
+        width: 28.01025rem;
+        color: var(--greyscaletext-0, #FFF);
+        text-align: justify;
+
+        font-family: "Proxima Nova Bold",sans-serif;
+        font-size: 1.5rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 150%; 
+        letter-spacing: -0.015rem;
+    }
+    #for-us .Rectangle-34625240 p span{
+        color: var(--SECONDARY-blue-400, #45DDFF);
+
+        font-family: "Proxima Nova Bold",sans-serif;
+        font-size: 1.5rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 150%;
+        letter-spacing: -0.015rem;
+    }
+    #for-us .Ellipse-2036{
+        position: absolute;
+        top: 2.17rem;
+        right: 2.98rem;
+        width: 8.69119rem;
+        height: 8.69119rem;
+        flex-shrink: 0;
+        fill: linear-gradient(180deg, #DB3232 0%, rgba(255, 88, 88, 0.00) 100%);
+    }
+    #for-us .Frame-1000005734{
+        display: flex;
+        align-items: flex-start;
+        gap: 3rem;
+    }
+    #for-us .Frame-1000005736{
+        position: relative;
+        width: 42.25rem;
+        height: 22.5rem;
+        border-radius: 1rem;
+        border: 1px solid var(--PRIMARY-blue-300, #6186BC);
+        background: var(--PRIMARY-blue-400, #1E60C1);
+    }
+    #for-us .Frame-1000005739{
+        position: absolute;
+        top: 2.52rem;
+        left: 3.06rem;
+        display: inline-flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 2.25rem;
+    }
+    #for-us .Frame-1000005736 .blur-doctor{
+        position: absolute;
+        top: 5.36rem;
+        left: 21.31rem;
+    }
+    #for-us .Rectangle-doctor{
+        position: absolute;
+        bottom: 0;
+        right: 1.19rem;
+        width: 17.14344rem;
+        height: 19.01rem;
+        flex-shrink: 0;
+    }
+    #for-us .Frame-1000005740{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1.5rem;
+        width: 20.9869rem;
+    }
+    #for-us .Frame-1000005740 p{
+        color: var(--greyscaletext-0, #FFF);
+        text-align: justify;
+        font-family: "Proxima Nova Bold",sans-serif;
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%; 
+        letter-spacing: -0.02rem;
+    }
+    #for-us .Frame-1000005740 span{
+        color: var(--greyscaletext-0, #FFF);
+        text-align: justify;
+
+        font-family: "Proxima Nova Regular",sans-serif;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%; 
+        height: 6rem;
+    }
+    #for-us .Rectangle-service{
+        position: absolute;
+        top: 6.32rem;
+        left: 24.89rem;
+    }
+    #for-us .btn-show-more{
+        display: flex;
+        padding: 0.5rem 0.5rem 0.5rem 1.5rem;
+        align-items: center;
+        gap: 0.5rem;
+        border-radius: 1.5rem;
+        border: 1px solid var(--greyscaletext-0, #FFF);
+        background: var(--greyscaletext-0, #FFF);
+
+        color: var(--PRIMARY-blue-500, #134A9B);
+        text-align: center;
+
+        font-family: "Proxima Nova SemiBold",sans-serif;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 120%; 
+        letter-spacing: 0.0125rem;
+    }
+    #for-us .btn-show-more .svg-next{
+        display: flex;
+        width: 2rem;
+        height: 2rem;
+        align-items: center;
+        justify-content: center;
+        border-radius: 1.25rem;
+        background: var(--SECONDARY-blue-200, #96DEEE);
+    }   
 }
 
 /*For mobile*/
