@@ -1,0 +1,992 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*fix*/
+html {
+    font-size: 1vw;
+}
+/*fonts*/
+@font-face {
+    font-family: Proxima Nova Regular;
+    src: url(assets/fonts/proxima/Proxima-Nova-Regular.otf);
+}
+@font-face {
+    font-family: Proxima Nova Bold;
+    src: url(assets/fonts/proxima/Proxima-Nova-Bold.otf);
+}
+@font-face {
+    font-family: Proxima Nova Semibold;
+    src: url(assets/fonts/proxima/Proxima-Nova-Semibold.otf);
+}
+
+/*For PC*/
+@media screen and (min-width: 1024px) {
+    html {
+        font-size: 16px;
+    }
+    #header .layout-header{
+        width: auto;
+        display: flex;
+        /* height: 7.375rem; */
+        padding: 1.25rem 6.25rem 0.28125rem 6.25rem;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-start;
+        gap: 0.84375rem;
+    }
+    #header .Frame-1000005465{
+        display: flex;
+        width: 87.5rem;
+        height: 2.5rem;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #header .Frame-9174{
+        display: flex;
+        width: 35.125rem;
+        height: 2.5rem;
+        padding: 0rem 1.5rem;
+        align-items: center;
+        gap: 0.5rem;
+        flex-shrink: 0;
+        border-radius: 1.25rem;
+        background: rgba(231, 237, 245, 0.50);
+    }
+    #header .Frame-9174 svg{
+        width: 1.5rem;
+        height: 1.5rem;
+        flex-shrink: 0;
+    }
+    #header .Frame-9174 input{
+        color: var(--PRIMARY-blue-700, #0D356E);
+        font-family: "Proxima Nova Regular",sans-serif;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+        background: rgba(231, 237, 245, 0.50);
+        border: 0px;
+        opacity: 0.5;
+    }
+    #header .Frame-1000005464{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 1rem;
+    }
+    #header .btn-instruction{
+        color: var(--PRIMARY-blue-500, #134A9B);
+        text-align: center;
+
+        font-family: "Proxima Nova Semibold",sans-serif;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 120%; 
+        letter-spacing: 0.0125rem;
+        display: flex;
+        height: 2.5rem;
+        padding: 0.5rem 1.5rem;
+        align-items: center;
+        gap: 0.5rem;
+        border-radius: 1.5rem;
+        border: none;
+        background: var(--SECONDARY-blue-50, #E8F8FB);
+    }
+    #header .btn-booking-now{
+        display: flex;
+        height: 2.5rem;
+        padding: 0.5rem 1.5rem;
+        align-items: center;
+        gap: 0.5rem;
+        border-radius: 1.5rem;
+        border: none;
+        background: var(--SECONDARY-blue-500, #1AB7DA);
+
+        color: var(--greyscaletext-0, #FFF);
+        text-align: center;
+
+        font-family: "Proxima Nova Semibold",sans-serif;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 120%; 
+        letter-spacing: 0.0125rem;
+    }
+    #header .Component-15{
+        display: flex;
+        width: 2.25rem;
+        height: 2.25rem;
+        padding: 0.375rem;
+        justify-content: center;
+        align-items: center;
+        border-radius: 1.25rem;
+        border: none;
+        background: var(--PRIMARY-blue-500, #134A9B);
+    }
+    #header .Frame-1000005346{
+        display: flex;
+        width: 87.5rem;
+        height: 2.5rem;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    #header .Frame-1000005331{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0.25rem;
+    }
+    #header .Frame-1000005168{
+        position: relative;
+        display: inline-block;
+    }
+    #header .Frame-1000005331 p{
+        color: var(--PRIMARY-blue-500, #134A9B);
+        text-align: center;
+
+        font-family: "Proxima Nova Semibold",sans-serif;
+        font-size: 0.875rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 120%;
+    }
+    #header .Frame-1000005487{
+        display: flex;
+        width: 35.9375rem;
+        height: 18.6875rem;
+        margin-top: 20px;
+        position: absolute;
+        border-radius: 1rem;
+        border: 2px solid var(--BACKGROUND-ELEVATION-5, #FFF);
+        background: #FFF;
+        box-shadow: 0px 12px 32px 0px rgba(27, 183, 218, 0.04), 2px 6px 30px 0px rgba(18, 75, 154, 0.04);
+        z-index: 1;
+    }
+    #header .Rectangle-34625111{
+        width: 18.6875rem;
+        height: 18.6875rem;
+        flex-shrink: 0;
+        border-top-left-radius: 1rem;
+        border-bottom-left-radius: 1rem;
+        background: linear-gradient(180deg, rgba(19, 74, 155, 0.00) 52.29%, rgba(19, 74, 155, 0.80) 78.67%, #134A9B 100%), url('../images/NAL_1866.jpg') lightgray 50% / cover no-repeat;
+    }
+    #header .Rectangle-34625111 p{
+        color: #FFF;
+        padding-top: 15.28rem;
+        text-align: center;
+        font-family: "Proxima Nova Bold",sans-serif;
+        font-size: 1.75rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%; 
+        letter-spacing: -0.0175rem;
+    }
+    #header .Rectangle-34625106{
+        position: relative;
+    }
+    #header .Frame-1000005507{
+        margin-top: 2.31rem;
+        margin-left: 1.44rem;
+        display: inline-flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.75rem;
+    }
+    #header .Frame-1000005507 a{
+        text-decoration: none;
+        color: var(--PRIMARY-blue-500, #134A9B);
+        /* WEB/BODY1/SEMI BOLD */
+        font-family: "Proxima Nova Semibold",sans-serif;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 150%;
+    }
+    .Rectangle-34625106{
+        display: flex;
+        flex-direction: column;
+    }
+    #header .Frame-1000005339{
+        margin-left: 8.73rem;
+        margin-top: 7.89rem;
+        display: inline-flex;
+        align-items: center;
+        gap: 0.375rem;
+    }
+    #header .Frame-1000005339 a{
+        color: var(--SECONDARY-blue-500, #1AB7DA);
+
+        font-family: "Proxima Nova Bold",sans-serif;
+        font-size: 0.875rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%; 
+        letter-spacing: 0.00875rem;
+        text-decoration: none;
+    }
+    #header .Frame-1000005339 svg{
+        width: 1.125rem;
+        height: 0.9375rem;
+    }
+    #header .Frame-1000005486{
+        display: flex;
+        margin-top: 20px;
+        position: absolute;
+        width: 50.25rem;
+        height: 18.6875rem;
+        border-radius: 1rem;
+        border: 2px solid var(--BACKGROUND-ELEVATION-5, #FFF);
+        background: #FFF;
+
+        box-shadow: 0px 12px 32px 0px rgba(27, 183, 218, 0.04), 2px 6px 30px 0px rgba(18, 75, 154, 0.04);
+    }
+    #header .Rectangle-34625106{
+        display: flex;
+        flex-direction: column;
+    }
+    #header .Frame-1000005508{
+        display: inline-flex;
+        align-items: flex-start;
+        gap: 3.75rem;
+    }
+    #header .Frame-1000005507{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.75rem;
+    }
+    #header .Frame-1000005340{
+        margin-left: 23.16rem;
+        margin-top: 4.97rem;
+        display: inline-flex;
+        align-items: center;
+        gap: 0.375rem;
+    }
+    #header .Frame-1000005340 a{
+        color: var(--SECONDARY-blue-500, #1AB7DA);
+
+        font-family: "Proxima Nova Bold",sans-serif;
+        font-size: 0.875rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%; 
+        letter-spacing: 0.00875rem;
+        text-decoration: none;
+    }
+    #header .Frame-1000005340 svg{
+        width: 1.125rem;
+        height: 0.9375rem;
+    }
+
+    #login .container{
+        overflow: hidden;
+        position: relative;
+    }
+    #login .svg{
+        position: absolute;
+        z-index: 1;
+    }
+    #login .layout-content{
+        position: relative;
+        height: 52rem;
+        flex-shrink: 0;
+        background: var(--PRIMARY-blue-600, #0F3F87);
+    }
+    #login .Frame-1000007321{
+        position: absolute;
+        top: 21.065rem;
+        left: 6.38rem;
+        display: flex;
+        flex-direction: column;
+        gap: 0.81rem;
+    }
+    #login .Frame-1000007321 p{
+        color: #FFF;
+        
+        font-family: "Proxima Nova Bold",sans-serif;
+        font-size: 3rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%; 
+        letter-spacing: -0.03rem;
+    }
+    #login .Frame-1000007321 .main{
+        color: var(--SECONDARY-blue-500, #1AB7DA);
+
+        font-family: "Proxima Nova Bold",sans-serif;
+        font-size: 4rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%; 
+        letter-spacing: -0.02rem;
+    }
+    #login .Group-1000004197{
+        position: absolute;
+        left: 4.25rem;
+        top: 35.065rem;
+    }
+    #login .Ellipse-2140{
+        position: absolute;
+        right: 37.19rem;
+        top: 37.745rem;
+        width: 97.3125rem;
+        height: 97.3125rem;
+        flex-shrink: 0;
+        border-radius: 97.3125rem;
+        background: var(--PRIMARY-blue-400, #1E60C1);
+        filter: blur(135.64999389648438px);
+    }
+    #login .Ellipse-2141{
+        position: absolute;
+        left: 44.81rem;
+        bottom: 33.13rem;
+        width: 97.3125rem;
+        height: 97.3125rem;
+        flex-shrink: 0;
+        border-radius: 97.3125rem;
+        background: var(--PRIMARY-blue-400, #1E60C1);
+        filter: blur(135.64999389648438px);
+    }
+    #login .image-hold-smartphone{
+        position: absolute;
+        bottom: -3.7525rem;
+        right: 0;
+        z-index: 2;
+        width: 48rem;
+        height: 45rem;
+        flex-shrink: 0;
+    }
+    #login .Frame-1000007047{
+        margin-top: 3.7525rem;
+        position: absolute;
+        top: 8.37rem;
+        right: 14rem;
+        width: 27.8rem;
+        height: 49.375rem;
+        flex-shrink: 0;
+        border-radius: 1.7375rem;
+        background: linear-gradient(180deg, #FFF 0%, rgba(255, 255, 255, 0.00) 117.85%);
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #login .Group-1000004196{
+        z-index: 3;
+        width: 5.47719rem;
+        height: 5.4375rem;
+        flex-shrink: 0;
+    }
+    #login .title-login{
+        color: var(--PRIMARY-blue-600, #0F3F87);
+
+        font-family: "Proxima Nova Bold",sans-serif;
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%; 
+    }
+    #login .Form-login{
+        display: flex;
+        
+        padding: 2rem 2rem 0.375rem 2rem;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-start;
+        gap: 0.5625rem;
+    }
+    #login .Frame-1000005497{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 0.75rem;
+        align-self: stretch;
+    }
+    #login .Frame-1000005383{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1.25rem;
+        flex: 1 0 0;
+    }
+    #login .Frame-1000007040{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.3125rem;
+        align-self: stretch;
+    }
+    #login .Frame-1000007040 p{
+        align-self: stretch;
+        color: var(--greyscaletext-70, #313131);
+
+        font-family: "Proxima Nova Semibold",sans-serif;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 150%; /* 1.5rem */
+    }
+    #login .Frame-16{
+        z-index: 3;
+        display: flex;
+        width: 20.4rem;
+        height: 1.5rem;
+        padding: 0.75rem 1.25rem;
+        justify-content: space-between;
+        align-items: center;
+        flex-shrink: 0;
+        align-self: stretch;
+        border-radius: 1.5rem;
+        border: none;
+        color: black;
+        background: var(--greyscaletext-0, #FFF);
+    }
+    #login .text-forgotpassword{
+        color: var(--greyscaletext-0, #FFF);
+        text-align: center;
+        font-family: "Proxima Nova Semibold",sans-serif;
+        font-size: 0.8685rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 120%; 
+        letter-spacing: 0.01088rem;
+    }
+    #login .btn-login{
+        display: inline-flex;
+        padding: 0.5rem 0.5rem 0.5rem 1.5rem;
+        align-items: center;
+        gap: 0.5rem;
+        border-radius: 1.5rem;
+        background: var(--PRIMARY-blue-500, #134A9B);
+        border: none;
+
+        color: var(--greyscaletext-0, #FFF);
+        text-align: center;
+
+        font-family: "Proxima Nova Semibold",sans-serif;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 120%; 
+        letter-spacing: 0.0125rem;
+    }
+    #login .Frame-1000005541{
+        display: flex;
+        width: 2rem;
+        height: 2rem;
+        align-items: center;
+        justify-content: center;
+        border-radius: 1.25rem;
+        background: #FFF;
+    }
+    #login .layout-btn{
+        display: flex;
+        align-items: center;
+    }
+    #login .text-questions{
+        color: #000;
+        text-align: center;
+        font-family: "Proxima Nova Regular",sans-serif;
+        font-size: 0.8685rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 120%; 
+        letter-spacing: 0.01088rem;
+    }
+    #login .register-now{
+        color: var(--PRIMARY-blue-700, #0D356E);
+        text-align: center;
+        font-family: "Proxima Nova Semibold",sans-serif;
+        font-size: 0.8685rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 120%; 
+        letter-spacing: 0.01088rem;
+    }
+    #for-us .Rectangle-34625171{
+        margin-top: 7.375rem;
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        height: 43.16513rem;
+        flex-shrink: 0;
+        background: url('../images/Rectangle\ 34625171.png') no-repeat center / cover, #D9D9D9;
+
+    }
+    #for-us .bluer-2212{
+        width: 100rem;
+        height: 43.16513rem;
+        flex-shrink: 0;
+        background: linear-gradient(266deg, rgba(255, 255, 255, 0.18) 28.66%, rgba(255, 255, 255, 0.72) 50.5%, rgba(255, 255, 255, 0.81) 56.96%, rgba(255, 255, 255, 0.90) 78.26%);
+    }
+    #for-us .Frame-1000005542{
+        position: absolute;
+        top: 3.37rem;
+        left: 6.16rem;
+        display: flex;
+        height: 1.1875rem;
+        align-items: flex-start;
+        gap: 0.5rem;
+        flex-shrink: 0;
+
+        color: var(--PRIMARY-blue-400, #1E60C1);
+
+        font-family: "Proxima Nova Regular",sans-serif;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 120%; /* 1.2rem */
+        letter-spacing: -0.01rem;
+    }
+    #for-us .Frame-1000005542 .main{
+        color: var(--PRIMARY-blue-500, #134A9B);
+
+        font-family: "Proxima Nova Bold",sans-serif;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%; /* 1.2rem */
+        letter-spacing: -0.01rem;
+    }
+    #for-us .title-msc{
+        width: 38.12894rem;
+        height: 10.55131rem;
+        flex-shrink: 0;
+        position: absolute;
+        top: 13.1rem;
+        left: 6.16rem;
+        color: var(--PRIMARY-blue-500, #134A9B);
+        text-align: justify;
+        font-family: "Proxima Nova Bold",sans-serif;
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 130%; 
+        letter-spacing: 0.005rem;
+    }
+    #for-us .title-msc span{
+        color: var(--SECONDARY-blue-500, #1AB7DA);
+        font-family: "Proxima Nova Bold",sans-serif;
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 130%;
+        letter-spacing: 0.005rem;
+    }
+    #for-us .Group-1000004197{
+        position: absolute;
+        left: 80.59rem;
+        top: -7.5rem;
+    }
+    #for-us .Frame-1000005733{
+        display: flex;
+        width: 84.5rem;
+        align-items: flex-start;
+        gap: 1.5rem;
+        position: absolute;
+        top: 33.19rem;
+        left: 6.15rem;
+    }
+    #for-us .Frame-1000005729{
+        display: flex;
+        padding: 1rem 1.5rem;
+        align-items: center;
+        gap: 1.5rem;
+        flex: 1 0 0;
+        border-radius: 1rem;
+        border: 1px solid var(--SECONDARY-blue-100, #B8E9F4);
+        background: var(--greyscaletext-0, #FFF);
+    }
+    #for-us .Frame-1000005729 p{
+        width: 11.30138rem;
+        color: var(--PRIMARY-blue-500, #134A9B);
+        font-family: "Proxima Nova Bold",sans-serif;
+        font-size: 1.5rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%; /* 1.8rem */
+        letter-spacing: -0.015rem;
+    }
+    #for-us .Component-187{
+        display: flex;
+        padding: 5.66994rem 6.2645rem 0rem 6.25rem;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-start;
+        gap: 2.8745rem;
+        background: var(--PRIMARY-blue-600, #0F3F87);
+    }
+    #for-us .chosse-top{
+        color: var(--greyscaletext-0, #FFF);
+        text-align: justify;
+
+        font-family: "Proxima Nova Bold",sans-serif;
+        font-size: 3rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%; /* 3.6rem */
+        letter-spacing: -0.03rem;
+    }
+    #for-us .chosse-top span{
+        color: var(--SECONDARY-blue-400, #45DDFF);
+                
+        font-family: "Proxima Nova Bold",sans-serif;
+        font-size: 3rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%;
+        letter-spacing: -0.03rem;
+    }
+    #for-us .Rectangle-34625240{
+        position: relative;
+        width: 87.4855rem;
+        height: 13.03738rem;
+        flex-shrink: 0;
+        border-radius: 1rem;
+        border: 1px solid var(--PRIMARY-blue-300, #6186BC);
+        background: linear-gradient(90deg, #1B5FC1 -0.81%, #1B5FC1 28.75%, rgba(30, 96, 193, 0.80) 54.04%, rgba(54, 121, 221, 0.00) 98.22%), url('../images/Rectangle\ 34625240.png') lightgray 50% / cover no-repeat;
+    }
+    #for-us .Rectangle-34625240 p{
+        position: absolute;
+        top: 3.14rem;
+        left: 3.37rem;
+        width: 28.01025rem;
+        color: var(--greyscaletext-0, #FFF);
+        text-align: justify;
+
+        font-family: "Proxima Nova Bold",sans-serif;
+        font-size: 1.5rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 150%; 
+        letter-spacing: -0.015rem;
+    }
+    #for-us .Rectangle-34625240 p span{
+        color: var(--SECONDARY-blue-400, #45DDFF);
+
+        font-family: "Proxima Nova Bold",sans-serif;
+        font-size: 1.5rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 150%;
+        letter-spacing: -0.015rem;
+    }
+    #for-us .Ellipse-2036{
+        position: absolute;
+        top: 2.17rem;
+        right: 2.98rem;
+        width: 8.69119rem;
+        height: 8.69119rem;
+        flex-shrink: 0;
+        fill: linear-gradient(180deg, #DB3232 0%, rgba(255, 88, 88, 0.00) 100%);
+    }
+    #for-us .Frame-1000005734{
+        display: flex;
+        align-items: flex-start;
+        gap: 3rem;
+    }
+    #for-us .Frame-1000005736{
+        position: relative;
+        width: 42.25rem;
+        height: 22.5rem;
+        border-radius: 1rem;
+        border: 1px solid var(--PRIMARY-blue-300, #6186BC);
+        background: var(--PRIMARY-blue-400, #1E60C1);
+    }
+    #for-us .Frame-1000005739{
+        position: absolute;
+        top: 2.52rem;
+        left: 3.06rem;
+        display: inline-flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 2.25rem;
+    }
+    #for-us .Frame-1000005736 .blur-doctor{
+        position: absolute;
+        top: 5.36rem;
+        left: 21.31rem;
+    }
+    #for-us .Rectangle-doctor{
+        position: absolute;
+        bottom: 0;
+        right: 1.19rem;
+        width: 17.14344rem;
+        height: 19.01rem;
+        flex-shrink: 0;
+    }
+    #for-us .Frame-1000005740{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1.5rem;
+        width: 20.9869rem;
+    }
+    #for-us .Frame-1000005740 p{
+        color: var(--greyscaletext-0, #FFF);
+        text-align: justify;
+        font-family: "Proxima Nova Bold",sans-serif;
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%; 
+        letter-spacing: -0.02rem;
+    }
+    #for-us .Frame-1000005740 span{
+        color: var(--greyscaletext-0, #FFF);
+        text-align: justify;
+
+        font-family: "Proxima Nova Regular",sans-serif;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%; 
+        height: 6rem;
+    }
+    #for-us .Rectangle-service{
+        position: absolute;
+        top: 6.32rem;
+        left: 24.89rem;
+    }
+    #for-us .btn-show-more{
+        display: flex;
+        padding: 0.5rem 0.5rem 0.5rem 1.5rem;
+        align-items: center;
+        gap: 0.5rem;
+        border-radius: 1.5rem;
+        border: 1px solid var(--greyscaletext-0, #FFF);
+        background: var(--greyscaletext-0, #FFF);
+
+        color: var(--PRIMARY-blue-500, #134A9B);
+        text-align: center;
+
+        font-family: "Proxima Nova SemiBold",sans-serif;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 120%; 
+        letter-spacing: 0.0125rem;
+    }
+    #for-us .btn-show-more .svg-next{
+        display: flex;
+        width: 2rem;
+        height: 2rem;
+        align-items: center;
+        justify-content: center;
+        border-radius: 1.25rem;
+        background: var(--SECONDARY-blue-200, #96DEEE);
+    }   
+    #for-us .Frame-1000005596{
+        position: relative;
+        height: 47.48rem;
+        background: var(--PRIMARY-blue-600, #0F3F87);
+    }
+    #for-us .tam-nhin-su-menh{
+        position: absolute;
+        top: 6.37rem;
+        left: 6.21rem;
+
+        color: var(--greyscaletext-0, #FFF);
+
+        font-family: "Proxima Nova Bold",sans-serif;
+        font-size: 3rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%;
+        letter-spacing: -0.03rem;
+    }
+    #for-us .tam-nhin-su-menh span{
+        color: var(--SECONDARY-blue-400, #45DDFF);
+
+        font-family: "Proxima Nova Bold",sans-serif;
+        font-size: 3rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%; /* 3.6rem */
+        letter-spacing: -0.03rem;
+    }
+    #for-us .vector-a{
+        position: absolute;
+        left: 49.12rem;
+        top: 6.99rem;
+        width: 41.3125rem;
+        height: 34.4375rem;
+        flex-shrink: 0;
+        mix-blend-mode: plus-lighter;
+    }
+    #for-us .img-team-member{
+        position: absolute;
+        top: 10.33rem;
+        left: 45.86rem;
+    }
+    #for-us .Component-202{
+        position: relative;
+        height: 82.8125rem;
+        flex-shrink: 0;
+        background: #FFF;
+        display: flex;
+        justify-content: center;
+    }
+    #for-us .Frame-1000005753{
+        display: inline-flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 4.8125rem;
+    }
+    #for-us .trach-nhiem-xa-hoi{
+        margin-top: 5.69rem;
+        color: var(--PRIMARY-blue-500, #134A9B);
+
+        font-family: "Proxima Nova Bold",sans-serif;
+        font-size: 3rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%; /* 3.6rem */
+        letter-spacing: -0.03rem;
+    }
+    #for-us .Frame-1000005752{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
+    }
+    #for-us .mo-ta-trach-nhiem-xa-hoi{
+        width: 30.99569rem;
+        color: var(--PRIMARY-blue-500, #134A9B);
+        text-align: justify;
+
+        font-family: "Proxima Nova Bold",sans-serif;
+        font-size: 1.5rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 150%; /* 2.25rem */
+        letter-spacing: -0.015rem;
+    }
+    #for-us .mo-ta-trach-nhiem-xa-hoi span{
+        color: var(--SECONDARY-blue-500, #1AB7DA);
+    }
+    #for-us .Frame-1000005752 button{
+        display: flex;
+        width: 7.5625rem;
+        height: 3rem;
+        padding: 0.5rem 1.5rem;
+        justify-content: center;
+        align-items: center;
+        gap: 0.5rem;
+        border-radius: 1.5rem;
+        background: var(--PRIMARY-blue-500, #134A9B);
+        border: 1px solid var(--PRIMARY-blue-500, #134A9B);
+
+        color: var(--greyscaletext-0, #FFF);
+        text-align: center;
+
+        font-family: "Proxima Nova SemiBold",sans-serif;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 120%; /* 1.2rem */
+        letter-spacing: 0.0125rem;
+    }
+    #for-us .Rectangle-34625202{
+        position: absolute;
+        top: 14.41rem;
+        left: 0;
+        width: 31.25rem;
+        height: 20.91794rem;
+        flex-shrink: 0;
+        border-radius: 1rem;
+        background: lightgray 50% / cover no-repeat, #D9D9D9;
+    }
+    #for-us .Rectangle-34625208{
+        position: absolute;
+        top: 14.41rem;
+        right: 0;
+        width: 31.25rem;
+        height: 20.91794rem;
+        flex-shrink: 0;
+        border-radius: 1rem;
+        background: lightgray 50% / cover no-repeat, #D9D9D9;
+    }
+    #for-us .Rectangle-34625211{
+        position: absolute;
+        top: 38.33rem;
+        left: 0;
+        width: 31.25rem;
+        height: 20.91794rem;
+        flex-shrink: 0;
+        border-radius: 1rem;
+        background: lightgray 50% / cover no-repeat, #D9D9D9;
+    }
+    #for-us .Rectangle-34625209{
+        position: absolute;
+        top: 32.37rem;
+        left: 34.27rem;
+        width: 31.25rem;
+        height: 20.91794rem;
+        flex-shrink: 0;
+        border-radius: 1rem;
+        background: lightgray 50% / cover no-repeat, #D9D9D9;
+    }
+    #for-us .Rectangle-34625210{
+        position: absolute;
+        top: 38.33rem;
+        right: 0;
+        width: 31.25rem;
+        height: 20.91794rem;
+        flex-shrink: 0;
+        border-radius: 1rem;
+        background: lightgray 50% / cover no-repeat, #D9D9D9;
+    }
+    #for-us .Rectangle-34625213{
+        position: absolute;
+        top: 61.87rem;
+        left: 0;
+        width: 31.25rem;
+        height: 20.91794rem;
+        flex-shrink: 0;
+        border-radius: 1rem;
+        background: lightgray 50% / cover no-repeat, #D9D9D9;
+    }
+    #for-us .Rectangle-34625214{
+        position: absolute;
+        top: 55.91rem;
+        left: 34.37rem;
+        width: 31.25rem;
+        height: 20.91794rem;
+        flex-shrink: 0;
+        border-radius: 1rem;
+        background: lightgray 50% / cover no-repeat, #D9D9D9;
+    }
+    #for-us .Rectangle-34625212{
+        position: absolute;
+        top: 61.87rem;
+        right: 0;
+        width: 31.25rem;
+        height: 20.91794rem;
+        flex-shrink: 0;
+        border-radius: 1rem;
+        background: lightgray 50% / cover no-repeat, #D9D9D9;
+    }
+    #for-us .Rectangle-34625241{
+        width: 100%;
+        position: absolute;
+        top: 65.26rem;
+        height: 18.26269rem;
+        flex-shrink: 0;
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 0%, #FFF 64.65%, #FFF 100%);
+    }
+}
+
+/*For mobile*/
+@media only screen and (max-width: 480px) {
+
+}
+
+/*For tablet*/
+@media (min-width: 481px) and (max-width: 1023px) {
+    html {
+        font-size: 12px;
+    }
+}

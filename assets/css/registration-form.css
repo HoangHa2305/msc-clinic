@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*fix*/
+html {
+    font-size: 1vw;
+}
+/*fonts*/
+@font-face {
+    font-family: Proxima Nova Regular;
+    src: url(assets/fonts/proxima/Proxima-Nova-Regular.otf);
+}
+@font-face {
+    font-family: Proxima Nova Bold;
+    src: url(assets/fonts/proxima/Proxima-Nova-Bold.otf);
+}
+@font-face {
+    font-family: Proxima Nova Semibold;
+    src: url(assets/fonts/proxima/Proxima-Nova-Semibold.otf);
+}
+
+/*For PC*/
+@media screen and (min-width: 1024px) {
+    html {
+        font-size: 16px;
+    }
+    
+}
