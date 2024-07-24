@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*fix*/
+html {
+    font-size: 1vw;
+}
+/*fonts*/
+@font-face {
+    font-family: Proxima Nova Regular;
+    src: url(assets/fonts/proxima/Proxima-Nova-Regular.otf);
+}
+@font-face {
+    font-family: Proxima Nova Bold;
+    src: url(assets/fonts/proxima/Proxima-Nova-Bold.otf);
+}
+@font-face {
+    font-family: Proxima Nova Semibold;
+    src: url(assets/fonts/proxima/Proxima-Nova-Semibold.otf);
+}
+
+/*For PC*/
+@media screen and (min-width: 1024px) { 
+    #instruct .banner{
+        position: relative;
+        height: 22rem;
+        background: linear-gradient(90deg, #174C97 0%, #174C97 48.01%, rgba(0, 0, 0, 0.00) 75.09%), url(../images/221-3.png) lightgray 50% / cover no-repeat;
+    }
+    #instruct .banner__list{
+        display: flex;
+        padding-top: 2.75rem;
+        padding-left: 6.19rem;
+        list-style-type: none;
+        align-items: flex-start;
+        gap: 0.5rem;
+    }
+    #instruct .banner__list-item{
+        color: var(--PRIMARY-blue-100, #B6C7E0);
+        text-align: center;
+
+        font-family: "Proxima Nova Regular",sans-serif;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 120%; 
+        letter-spacing: -0.01rem;
+    }
+    #instruct .item-main{
+        color: var(--greyscaletext-0, #FFF);
+        font-family: "Proxima Nova Bold",sans-serif;
+        font-weight: 700;
+    }
+    #instruct .banner__title{
+        padding-top: 5.38rem;
+        padding-left: 6.29rem;
+        color: var(--greyscaletext-0, #FFF);
+        text-align: justify;
+
+        font-family: "Proxima Nova Bold",sans-serif;
+        font-size: 3rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%; 
+        letter-spacing: -0.03rem;
+    }
+    #instruct .instruct{
+        display: flex;
+        padding: 5.375rem 6.28025rem 5.375rem 6.21975rem;
+        justify-content: center;
+        align-items: center;
+    }
+    #instruct .instruct__1000006975{
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 3.75rem;
+    }
+    #instruct .instruct__1000006975-title{
+        display: flex;
+        width: 18.0625rem;
+        height: 14.1875rem;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1.5rem;
+
+        color: var(--PRIMARY-blue-500, #134A9B);
+        font-family: "Proxima Nova Bold",sans-serif;
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 140%; 
+    }
+    #instruct .instruct__1000006975-item{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 18.0625rem;
+    }
+    #instruct .item-1000006970{
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0.1875rem;
+
+        color: var(--SECONDARY-blue-500, #1AB7DA);
+        text-align: center;
+        font-family: "Proxima Nova Bold",sans-serif;
+        font-size: 3.375rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 150%; /* 5.0625rem */
+    }
+    #instruct .item-text{
+        color: var(--PRIMARY-blue-500, #134A9B);
+        text-align: center;
+        font-family: "Proxima Nova Bold",sans-serif;
+        font-size: 1.25rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%; /* 1.5rem */
+        letter-spacing: -0.0125rem;
+    }
+    #instruct .instruct__125{
+        position: absolute;
+        top: 44.9rem;
+        left: 41rem;
+    }
+    #instruct .instruct__126{
+        position: absolute;
+        top: 44.9rem;
+        left: 62.33rem;
+    }
+    #instruct .instruct__127{
+        position: absolute;
+        top: 45.6rem;
+        right: 6.26rem;
+    }
+    #instruct .instruct__131{
+        position: absolute;
+        top: 73.25rem;
+        left: 6.32rem;
+    }
+    #instruct .instruct__128{
+        position: absolute;
+        top: 72.5rem;
+        right: 20.8rem;
+    }
+    #instruct .instruct__129{
+        position: absolute;
+        top: 72.5rem;
+        right: 43rem;
+    }
+    #instruct .instruct__130{
+        position: absolute;
+        top: 72.5rem;
+        left: 19.36rem;
+    }
+    #instruct .instruct__132{
+        position: absolute;
+        top: 100rem;
+        left: 19.36rem;
+    }
+    #instruct .instruct__133{
+        position: absolute;
+        top: 100rem;
+        right: 43rem;
+    }
+}
