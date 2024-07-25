@@ -168,4 +168,122 @@ html {
         top: 100rem;
         right: 43rem;
     }
+
+    #map .map{
+        display: flex;
+        padding: 5.4375rem 6.25rem;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.625rem;
+        background: #0D356E;
+    }
+    #map .map__layout{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 4.375rem;
+    }
+    #map .map__layout-title{
+        color: var(--greyscaletext-0, #FFF);
+
+        font-family: "Proxima Nova Bold",sans-serif;
+        font-size: 3rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%; /* 3.6rem */
+        letter-spacing: -0.03rem;
+    }
+    #map .map__layout-item{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 2.25rem;
+    }
+    #map .item__floor{
+        display: flex;
+        position: relative;
+        width: 87.4855rem;
+        height: 13.03738rem;
+        flex-shrink: 0;
+        border-radius: 1rem;
+        border: 1px solid var(--PRIMARY-blue-300, #6186BC);
+    }
+    #map .floor-ground{
+        background: linear-gradient(91deg, #134A9B 38.64%, rgba(19, 74, 155, 0.80) 71.32%, rgba(54, 192, 222, 0.00) 97.64%), url(../images/floorG.jpg) lightgray 402.363px -267.58px / 84.339% 377.343% no-repeat;
+    }
+    #map .floor-one{
+        background: linear-gradient(91deg, #134A9B 38.64%, rgba(19, 74, 155, 0.80) 71.32%, rgba(54, 192, 222, 0.00) 97.64%), url(../images/floor1.jpg) lightgray 402.363px -267.58px / 84.339% 377.343% no-repeat;
+    }
+    #map .floor-two{
+        background: linear-gradient(91deg, #134A9B 38.64%, rgba(19, 74, 155, 0.80) 71.32%, rgba(54, 192, 222, 0.00) 97.64%), url(../images/floor2.jpg) lightgray 402.363px -267.58px / 84.339% 377.343% no-repeat;
+    }
+    #map .floor-three{
+        background: linear-gradient(91deg, #134A9B 38.64%, rgba(19, 74, 155, 0.80) 71.32%, rgba(54, 192, 222, 0.00) 97.64%), url(../images/floor3.jpg) lightgray 402.363px -267.58px / 84.339% 377.343% no-repeat;
+    }
+    #map .item__floor-title{
+        margin-left: 5.46rem;
+        margin-top: 5.17rem;
+        color: var(--SECONDARY-blue-400, #45DDFF);
+        font-family: "Proxima Nova Bold",sans-serif;
+        font-size: 2.25rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%; /* 2.7rem */
+        letter-spacing: -0.0225rem;
+    }
+    #map .item__floor-room{
+        height: 5.5rem;
+        margin-top: 3.77rem;
+        margin-left: 6.86rem;
+        display: inline-flex;
+        flex-direction: column;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+    #map .room__item{
+        display: flex;
+        gap: 0.67rem;
+        align-items: center;
+    }
+    #map .room__item-text{
+        width: 21.3088rem;
+        color: var(--greyscaletext-0, #FFF);
+        font-family: "Proxima Nova Bold",sans-serif;
+        font-size: 1.5rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 150%; /* 2.25rem */
+        letter-spacing: -0.015rem;
+    }
+    #map .btn-white{
+        margin-left: 39.15rem;
+        display: flex;
+        padding: 0.5rem 0.5rem 0.5rem 1.5rem;
+        align-items: center;
+        gap: 0.5rem;
+        border-radius: 1.5rem;
+        background: var(--greyscaletext-0, #FFF);
+        border: 1px solid var(--greyscaletext-0, #FFF);
+    }
+    #map .btn-white__text{
+        color: var(--PRIMARY-blue-500, #134A9B);
+        text-align: center;
+
+        font-family: "Proxima Nova Semibold",sans-serif;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 120%; /* 1.2rem */
+        letter-spacing: 0.0125rem;
+    }
+    #map .btn-white__circle{
+        display: flex;
+        height: 2rem;
+        padding-left: 0.79388rem;
+        padding-right: 0.79388rem;
+        align-items: center;
+        border-radius: 1.25rem;
+        background: var(--SECONDARY-blue-200, #96DEEE);
+    }
 }
