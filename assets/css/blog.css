@@ -22,14 +22,14 @@ html {
 
 /*For PC*/
 @media screen and (min-width: 1024px) {
-    #blog-list .blog__brandcrum{
+    .blog__brandcrum{
         margin-left: 6.26rem;
         margin-top: 2.19rem;
         display: flex;
         gap: 0.5rem;
         list-style: none;
     }
-    #blog-list .blog__brandcrum-item{
+    .blog__brandcrum-item{
         color: var(--PRIMARY-blue-400, #1E60C1);
         text-align: center;
 
@@ -40,7 +40,7 @@ html {
         line-height: 120%; /* 1.2rem */
         letter-spacing: -0.01rem;
     }
-    #blog-list .item-active{
+    .item-active{
         font-family: "Proxima Nova Bold",sans-serif;
         font-weight: 700;
     }

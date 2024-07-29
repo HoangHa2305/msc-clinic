@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*fix*/
+html {
+    font-size: 1vw;
+}
+/*fonts*/
+@font-face {
+    font-family: Proxima Nova Regular;
+    src: url(assets/fonts/proxima/Proxima-Nova-Regular.otf);
+}
+@font-face {
+    font-family: Proxima Nova Bold;
+    src: url(assets/fonts/proxima/Proxima-Nova-Bold.otf);
+}
+@font-face {
+    font-family: Proxima Nova Semibold;
+    src: url(assets/fonts/proxima/Proxima-Nova-Semibold.otf);
+}
+
+/*For PC*/
+@media screen and (min-width: 1024px) {
+    #detail-blog .detail-blog__title{
+        margin-top: 4rem;
+        margin-left: 25.5rem;
+        width: 49rem;
+        color: var(--PRIMARY-blue-500, #134A9B);
+        text-align: center;
+
+        font-family: "Proxima Nova Bold",sans-serif;
+        font-size: 3rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%; /* 3.6rem */
+        letter-spacing: -0.03rem;
+    }
+    #detail-blog .detail-blog__post{
+        display: inline-flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
+    }
+    #detail-blog .detail-blog__post-text{
+        width: 72.625rem;
+        padding-left: 13.63rem;
+        padding-right: 11.63rem;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1.25rem;
+    }
+    #detail-blog .text__layout{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+    }
+    #detail-blog .text__layout-main{
+        color: var(--greyscaletext-50, #454545);
+        text-align: justify;
+
+        font-family: "Proxima Nova Semibold",sans-serif;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 150%; /* 1.5rem */
+    }
+    #detail-blog .text__layout-desc{
+        color: var(--Foundation-Grey-grey-400, #6A6A6A);
+        text-align: justify;
+
+        font-family: "Proxima Nova Regular",sans-serif;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 120%; /* 1.2rem */
+        letter-spacing: -0.01rem;
+    }
+    #detail-blog .text__image{
+        width: 72.602rem;
+        height: 54.12181rem;
+    }
+    #detail-blog .detail-blog__social{
+        margin-left: 76.88rem;
+        display: flex;
+        align-items: center;
+        gap: 1.5rem;
+    }
+    #detail-blog .detail-blog__social-text{
+        color: var(--PRIMARY-blue-500, #134A9B);
+        text-align: center;
+
+        font-family: "Proxima Nova Semibold",sans-serif;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 120%; /* 1.2rem */
+        letter-spacing: 0.0125rem;
+    }
+    #detail-blog .detail-blog__post-summary{
+        display: flex;
+        width: 68.825rem;
+        margin-top: 4rem;
+        margin-left: 13.63rem;
+        margin-right: 11.63rem;
+        padding: 1.875rem;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+        border-radius: 1rem;
+        border: 1px solid var(--PRIMARY-blue-300, #6186BC);
+        background: rgba(19, 74, 155, 0.04);
+    }
+    #detail-blog .summary__list{
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+        align-self: stretch;
+    }
+    #detail-blog .summary__title{
+        align-self: stretch;
+        color: var(--PRIMARY-blue-500, #134A9B);
+
+        font-family: "Proxima Nova Bold",sans-serif;
+        font-size: 1.25rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 130%; /* 1.625rem */
+    }
+    #detail-blog .summary__list-item{
+        color: var(--greyscaletext-50, #454545);
+        text-align: justify;
+
+        font-family: "Proxima Nova Semibold",sans-serif;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 150%; /* 1.5rem */
+    }
+}
