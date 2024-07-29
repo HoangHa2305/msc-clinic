@@ -208,13 +208,13 @@ html {
         line-height: 120%; /* 1.2rem */
         letter-spacing: 0.0125rem;
     }
-    #news .Frame-1000005545{
+    .Frame-1000005545{
         display: flex;
         align-items: center;
         justify-content: center;
         margin-top: 3.36rem;
     }
-    #news .button-show-all-news{
+    .button-show-all-news{
         display: inline-flex;
         padding: 0.5rem 0.5rem 0.5rem 1.5rem;
         align-items: center;
@@ -223,7 +223,7 @@ html {
         border: 1px solid var(--PRIMARY-blue-500, #134A9B);
         background: var(--PRIMARY-blue-500, #134A9B);
     }
-    #news .button-show-all-news p{
+    .button-show-all-news p{
         color: var(--greyscaletext-0, #FFF);
         text-align: center;
 
@@ -234,7 +234,7 @@ html {
         line-height: 120%; /* 1.2rem */
         letter-spacing: 0.0125rem;
     }
-    #news .Frame-1000005541{
+    .Frame-1000005541{
         display: flex;
         height: 2rem;
         padding-right: 0.79388rem;
