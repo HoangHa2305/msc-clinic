@@ -22,6 +22,9 @@ html {
 
 /*For PC*/
 @media screen and (min-width: 1024px) {
+    #detail-blog .detail-blog{
+        margin-bottom: 5.25rem;
+    }
     #detail-blog .detail-blog__title{
         margin-top: 4rem;
         margin-left: 25.5rem;
@@ -189,7 +192,7 @@ html {
         align-items: flex-start;
         gap: 2.25rem;
         width: 41.4rem;
-        height: 26rem;
+        height: 23rem;
         flex-wrap: wrap;
     }
     #question .item__1000005670{
@@ -218,6 +221,10 @@ html {
         line-height: 150%; /* 2.25rem */
         letter-spacing: -0.015rem;
     }
+    #question .item__1000005670-text svg{
+        transform: rotate(0deg);
+        transition: 0.5s ease-in-out;
+    }
     #question .item__1000005670-line{
         width: 100%;
         height: 0.0625rem;
@@ -227,7 +234,9 @@ html {
         background: var(--PRIMARY-blue-500, #134A9B);
     }
     #question .item__1000005670-show{
-        display: flex;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.5s ease-in-out;
         flex-direction: column;
         align-items: flex-start;
         gap: 1rem;
