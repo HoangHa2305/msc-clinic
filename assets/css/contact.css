@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*fix*/
+html {
+    font-size: 1vw;
+}
+/*fonts*/
+@font-face {
+    font-family: Proxima Nova Regular;
+    src: url(assets/fonts/proxima/Proxima-Nova-Regular.otf);
+}
+@font-face {
+    font-family: Proxima Nova Bold;
+    src: url(assets/fonts/proxima/Proxima-Nova-Bold.otf);
+}
+@font-face {
+    font-family: Proxima Nova Semibold;
+    src: url(assets/fonts/proxima/Proxima-Nova-Semibold.otf);
+}
+
+/*For PC*/
+@media screen and (min-width: 1024px) {
+    .contact{
+        margin-top: 0.56rem;
+        position: relative;
+    }
+    .contact__image{
+        width: 66.125rem;
+        height: 41.25rem;
+        flex-shrink: 0;
+        margin-left: 33.87rem;
+    }
+    .contact__horizontal{
+        position: absolute;
+        top: 0.38rem;
+        left: 8.38rem;
+        width: 58.1875rem;
+        height: 41.4375rem;
+        flex-shrink: 0;
+        background: linear-gradient(90deg, #FFF 49.95%, rgba(255, 255, 255, 0.61) 69.39%, rgba(255, 255, 255, 0.00) 84.98%);
+    }
+    .contact__vertical{
+        position: absolute;
+        top: 32.38rem;
+        height: 9.0625rem;
+        width: 100%;
+        flex-shrink: 0;
+        flex-shrink: 0;
+        background: linear-gradient(89deg, #FFF -10.09%, rgba(255, 255, 255, 0.61) 42.38%, rgba(255, 255, 255, 0.00) 84.45%);
+    }
+    .blog__brandcrum{
+        position: absolute;
+        z-index: 2;
+    }
+    .contact__item{
+        width: 35.3125rem;
+        position: absolute;
+        top: 8.69rem;
+        left: 5.94rem;
+        display: inline-flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 2rem;
+    }
+    .contact__item-title{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1.5rem;
+    }
+    .title__company{
+        color: var(--PRIMARY-blue-500, #134A9B);
+        font-family: "Proxima Nova Bold",sans-serif;
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 130%;
+        letter-spacing: 0.005rem;
+    }
+    .title__company span{
+        color: var(--SECONDARY-blue-500, #1AB7DA);
+    }
+    .title__desc{
+        color: var(--PRIMARY-blue-700, #0D356E);
+        text-align: justify;
+
+        font-family: "Proxima Nova Regular",sans-serif;
+        font-size: 1.25rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 120%; /* 1.5rem */
+    }
+    .contact__item-btn{
+        display: flex;
+        align-items: flex-start;
+        gap: 1.125rem;
+    }
+    .contact__item-btn button{
+        display: flex;
+        padding: 0.5rem 0.5rem 0.5rem 1.5rem;
+        align-items: center;
+        gap: 0.5rem;
+        border-radius: 1.5rem;
+        border: 1px solid var(--PRIMARY-blue-500, #134A9B);
+        background: var(--PRIMARY-blue-500, #134A9B);
+
+        color: var(--greyscaletext-0, #FFF);
+        text-align: center;
+
+        font-family: "Proxima Nova Semibold",sans-serif;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 120%; /* 1.2rem */
+        letter-spacing: 0.0125rem;
+    }
+
+    #form-contact .form-contact{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #form-contact .form-contact__background{
+        margin-top: 1rem;
+        margin-bottom: 2.17rem;
+        width: 87.5rem;
+        height: 32.0625rem;
+        border-radius: 1.5rem;
+        background: #F6F8FB;
+        position: relative;
+    }
+    .form-contact__background-svg{
+        position: absolute;
+        top: 5.25rem;
+        left: 3.44rem;
+    }
+    .form-contact__background-img{
+        position: absolute;
+        top: 7.46rem;
+        left: 4.86rem;
+        z-index: 1;
+    }
+    .form-contact__background-form{
+        position: absolute;
+        top: 3rem;
+        right: 3.37rem;
+        display: inline-flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 2rem;
+    }
+    .form__title{
+        color: var(--PRIMARY-blue-500, #134A9B);
+
+        font-family: "Proxima Nova Bold",sans-serif;
+        font-size: 3rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%; /* 3.6rem */
+        letter-spacing: -0.03rem;
+    }
+    .form__title span{
+        color: var(--SECONDARY-blue-500, #1AB7DA);
+    }
+    .form__input{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1.6875rem;
+    }
+    .form__input-1000006931{
+        display: flex;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+    .form__input-1000005496{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1.25rem;
+    }
+    .form__input-1000006931 input{
+        display: flex;
+        padding: 0.75rem 1.25rem;
+        justify-content: space-between;
+        align-items: center;
+        flex-shrink: 0;
+        align-self: stretch;
+        border-radius: 1.25rem;
+        background: #FFF;
+        border: 1px solid #FFF;
+    }
+    .form__input-1000006931 .left{
+        width: 24.6rem;
+    }
+    .form__input-1000006931 .right{
+        width: 12rem;
+    }
+    .form-1000005496__area{
+        display: flex;
+        width: 41.3125rem;
+        height: 11.5rem;
+        padding: 1rem 0.75rem 0.75rem 1rem;
+        justify-content: space-between;
+        align-items: flex-start;
+        border-radius: 1.5rem;
+        border: 1px solid #FFF;
+        background: var(--greyscaletext-0, #FFF);
+
+        color: var(--greyscaletext-30, #828282);
+
+        font-family: "Proxima Nova Semibold",sans-serif;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 150%; /* 1.5rem */
+    }
+    .form-1000005496__btn{
+        display: flex;
+        width: 100%;
+        height: 3rem;
+        padding: 0rem 1.5rem;
+        justify-content: center;
+        align-items: center;
+        gap: 0.25rem;
+        border-radius: 6.25rem;
+        border: 1px solid var(--PRIMARY-blue-500, #134A9B);
+        background: var(--PRIMARY-blue-500, #134A9B);
+
+        color: #FFF;
+        text-align: center;
+
+        font-family: "Proxima Nova Bold",sans-serif;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%; /* 1.2rem */
+        letter-spacing: -0.01rem;
+    }
+}
