@@ -22,6 +22,10 @@ html {
 
 /*For PC*/
 @media screen and (min-width: 1024px) {
+    body{
+        overflow-x: hidden;
+    }
+
     #profile .profile{
         height: 31.1875rem;
     }
@@ -193,24 +197,25 @@ html {
         color: var(--greyscaletext-0, #FFF);
     }
 
-    .affiliate-url{
+    #affiliate-url .affiliate-url{
         margin-top: 1.81rem;
         display: flex;
         width: 100rem;
-        padding: 2rem 0rem 3.5rem 0rem;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         gap: 0.625rem;
     }
-    .affiliate-url__title{
+    #affiliate-url .affiliate-url__title{
+        margin-top: 2rem;
+        margin-bottom: 1.94rem;
         display: flex;
         width: 87.0625rem;
         flex-direction: column;
         align-items: flex-start;
         gap: 0.75rem;
     }
-    .affiliate-url__title p{
+    #affiliate-url .affiliate-url__title p{
         color: var(--PRIMARY-blue-500, #134A9B);
 
         font-family: "Proxima Nova Bold",sans-serif;
@@ -220,7 +225,224 @@ html {
         line-height: 120%;
         letter-spacing: -0.03rem;
     }
-    .affiliate-url__title span{
+    #affiliate-url .affiliate-url__title span{
         color: var(--SECONDARY-blue-500, #1AB7DA);
+    }
+    #affiliate-url .affiliate-url__custom{
+        display: flex;
+        width: 87.0625rem;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 2.25rem;
+    }
+    #affiliate-url .affiliate-url__custom-text{
+        color: #000;
+
+        font-family: "Proxima Nova Bold",sans-serif;
+        font-size: 1.25rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%; /* 1.5rem */
+        letter-spacing: -0.0125rem;
+    }
+    #affiliate-url .affiliate-url__table{
+        margin-top: 2.19rem;
+        width: 83.5rem;
+        display: flex;
+        padding: 1.875rem 1.875rem 3.75rem 1.875rem;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 2.25rem;
+        border-radius: 0.5rem;
+        background: #E8F8FB;
+    }
+    #affiliate-url .table__title{
+        display: flex;
+        width: 82.375rem;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.3125rem;
+    }
+    #affiliate-url .table__title-text{
+        align-self: stretch;
+        color: var(--PRIMARY-blue-600, #0F3F87);
+
+        font-family: "Proxima Nova Semibold",sans-serif;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 150%; /* 1.5rem */
+    }
+    #affiliate-url .table__title-layout{
+        display: flex;
+        align-items: flex-start;
+        gap: 0.75rem;
+        align-self: stretch;
+    }
+    #affiliate-url .table__title-layout input{
+        display: flex;
+        width: 69.9rem;
+        padding: 0.75rem 1.25rem;
+        justify-content: space-between;
+        align-items: center;
+        flex-shrink: 0;
+        align-self: stretch;
+        border: 1px solid #FFF;
+        border-radius: 1.5rem;
+        background: #FFF;
+    }
+    #affiliate-url .table__title-layout button{
+        display: flex;
+        padding: 0.5rem 0.5rem 0.5rem 1.5rem;
+        align-items: center;
+        gap: 0.5rem;
+        border-radius: 1.5rem;
+        border: 1px solid var(--PRIMARY-blue-500, #134A9B);
+        background: var(--PRIMARY-blue-500, #134A9B);
+
+        color: var(--greyscaletext-0, #FFF);
+        text-align: center;
+
+        font-family: "Proxima Nova Semibold",sans-serif;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 120%; /* 1.2rem */
+        letter-spacing: 0.0125rem;
+    }
+    #affiliate-url .table__content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
+    }
+    #affiliate-url .content__create{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 2.1875rem;
+    }
+    #affiliate-url .btn-coppy{
+        display: flex;
+        padding: 0.15663rem 0.83531rem;
+        align-items: center;
+        gap: 0.36544rem;
+        border-radius: 0.41763rem;
+        border: 1px solid var(--SECONDARY-blue-500, #1AB7DA);
+        background: var(--SECONDARY-blue-500, #1AB7DA);
+
+        color: var(--greyscaletext-0, #FFF);
+        font-family: "Proxima Nova Semibold",sans-serif;
+        font-size: 1.04413rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 150%; /* 1.56619rem */
+    }
+    #affiliate-url .content__create-title{
+        color: var(--PRIMARY-blue-600, #0F3F87);
+
+        font-family: "Proxima Nova Semibold",sans-serif;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 150%; /* 1.5rem */
+    }
+    #affiliate-url .table-th{
+        color: #000;
+        font-family: "Proxima Nova Bold",sans-serif;
+        font-size: 1.0625rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%; /* 1.275rem */
+    }
+    #affiliate-url .col-1{
+        width: 4.82rem;
+        text-align: left;
+    }
+    #affiliate-url .col-2{
+        width: 47.32rem;
+        text-align: left;
+    }
+    #affiliate-url .col-3{
+        width: 29.5rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        align-self: stretch;
+    }
+    #affiliate-url td{
+        padding: 0.78rem 0rem;
+    }
+    #affiliate-url .numerical{
+        color: #000;
+        font-family: "Proxima Nova Bold",sans-serif;
+        font-size: 1.0625rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%; /* 1.275rem */
+    }
+    #affiliate-url .td-text{
+        overflow: hidden;
+        color: var(--SECONDARY-blue-600, #008DAC);
+        text-overflow: ellipsis;
+        font-family: "Proxima Nova Bold",sans-serif;
+        font-size: 1.0625rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%; /* 1.275rem */
+        display: -webkit-box;
+        width: 45.625rem;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 1;
+        flex-shrink: 0;
+    }
+    #affiliate-url .td-link{
+        color: var(--greyscaletext-30, #828282);
+
+        font-family: "Proxima Nova Regular",sans-serif;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 120%; /* 1.2rem */
+        letter-spacing: -0.01rem;
+    }
+    #affiliate-url .content__paginate{
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+    }
+    #affiliate-url .content__paginate-page{
+        display: flex;
+        align-items: center;
+        gap: 0.625rem;
+    }
+    #affiliate-url .affiliate-service{
+        margin-top: 10rem;
+    }
+    #affiliate-url .service{
+        display: flex;
+        width: 22rem;
+        padding: 9.19119rem 0rem 2.18381rem 0rem;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    #affiliate-url .service__title{
+        color: #000;
+
+        font-family: "Proxima Nova Bold",sans-serif;
+        font-size: 1.25rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%; /* 1.5rem */
+        letter-spacing: -0.0125rem;
+    }
+    #affiliate-url .service__tab{
+        display: flex;
+        width: 22rem;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        flex: 1 0 0;
     }
 }
