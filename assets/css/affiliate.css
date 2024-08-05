@@ -418,14 +418,21 @@ html {
     }
     #affiliate-url .affiliate-service{
         margin-top: 5.5rem;
+        display: flex;
+        justify-content: center;
+    }
+    #affiliate-url .layout-service{
+        display: flex;
+        width: 87.0625rem;
+        justify-content: flex-start;
     }
     #affiliate-url .service{
         display: flex;
         width: 22rem;
-        padding: 9.19119rem 0rem 2.18381rem 0rem;
+        height: 25.9rem;
+        padding-top: 9.19119rem;
         flex-direction: column;
         justify-content: flex-end;
-        align-items: center;
     }
     #affiliate-url .service__title{
         color: #000;
@@ -439,7 +446,6 @@ html {
     }
     #affiliate-url .service__tab{
         margin-top: 2.62rem;
-        margin-left: 6.47rem;
         display: flex;
         width: 22rem;
         flex-direction: column;
@@ -448,7 +454,7 @@ html {
         flex: 1 0 0;
         gap: 0.84rem;
     }
-    .service__tab-item{
+    #affiliate-url .service__tab-item{
         display: flex;
         padding: 1rem;
         align-items: center;
@@ -456,7 +462,7 @@ html {
         align-self: stretch;
         border-radius: 1.25rem;
     }
-    .service__tab-item p{
+    #affiliate-url .service__tab-item p{
         color: var(--PRIMARY-blue-600, #0F3F87);
 
         font-family: "Proxima Nova Bold",sans-serif;
@@ -466,11 +472,101 @@ html {
         line-height: 120%; /* 1.2rem */
         letter-spacing: -0.01rem;
     }
-    .item-active{
+    #affiliate-url .item-active{
         background: var(--SECONDARY-blue-100, #B8E9F4);
     }
-    .item-general{
+    #affiliate-url .item-general{
         background: var(--greyscaletext-0, #FFF);
         box-shadow: 0px 12px 24px 0px rgba(27, 183, 218, 0.06), 2px 4px 30px 0px rgba(18, 75, 154, 0.04);
+    }
+    #affiliate-url .list-service{
+        display: inline-flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 4.125rem;
+
+        margin-top: 9.19rem;
+        margin-left: 3.75rem;
+    }
+    #affiliate-url .list-service__item{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1.5625rem;
+    }
+    #affiliate-url .list-service__item-title{
+        color: var(--SECONDARY-blue-500, #1AB7DA);
+
+        font-family: "Proxima Nova Bold",sans-serif;
+        font-size: 1.5rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 150%; /* 2.25rem */
+        letter-spacing: -0.015rem;
+    }
+    #affiliate-url .list-service__item-menu{
+        display: flex;
+        width: 61.5rem;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1.5rem;
+    }
+    #affiliate-url .menu{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5625rem;
+        align-self: stretch;
+    }
+    #affiliate-url .menu__title{
+        color: var(--PRIMARY-blue-500, #134A9B);
+
+        font-family: "Proxima Nova Semibold",sans-serif;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 120%; /* 1.2rem */
+        letter-spacing: 0.0125rem;
+    }
+    #affiliate-url .menu__link{
+        display: flex;
+        padding: 0.4375rem 0.75rem;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.625rem;
+        align-self: stretch;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.20);
+    }
+    #affiliate-url .menu__link-content{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        align-self: stretch;
+    }
+    #affiliate-url .content__text{
+        color: var(--greyscaletext-30, #828282);
+
+        font-family: "Proxima Nova Regular",sans-serif;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 120%; /* 1.2rem */
+        letter-spacing: -0.01rem;
+    }
+    #affiliate-url .content__btn-coppy{
+        display: flex;
+        padding: 0.15663rem 0.83531rem;
+        align-items: center;
+        gap: 0.36544rem;
+        border-radius: 0.41763rem;
+        border: 1px solid var(--SECONDARY-blue-500, #1AB7DA);
+        background: var(--SECONDARY-blue-500, #1AB7DA);
+
+        color: var(--greyscaletext-0, #FFF);
+        font-family: "Proxima Nova Semibold",sans-serif;
+        font-size: 1.04413rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 150%; /* 1.56619rem */
     }
 }
