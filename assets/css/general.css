@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*fix*/
+html {
+    font-size: 1vw;
+}
+/*fonts*/
+@font-face {
+    font-family: Proxima Nova Regular;
+    src: url(assets/fonts/proxima/Proxima-Nova-Regular.otf);
+}
+@font-face {
+    font-family: Proxima Nova Bold;
+    src: url(assets/fonts/proxima/Proxima-Nova-Bold.otf);
+}
+@font-face {
+    font-family: Proxima Nova Semibold;
+    src: url(assets/fonts/proxima/Proxima-Nova-Semibold.otf);
+}
+
+/*For PC*/
+@media screen and (min-width: 1024px) {
+    #general .general__baner{
+        height: 42.75rem;
+        background-image: url('../images/Rectangle-34625294.png');
+    }
+    #general .general__questions{
+        display: flex;
+        padding: 6.0625rem 6.28125rem 12.75rem 6.25rem;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5.5rem;
+        background: #FFF;
+    }
+    #general .questions__first{
+        display: flex;
+        height: 26.25rem;
+        padding-left: 3.54075rem;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 5.8345rem;
+        border-radius: 1.5rem;
+        background: #F6FAFF;
+    }
+    #general .questions__first-content{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1.75rem;
+    }
+    #general .content__title{
+        color: var(--PRIMARY-blue-500, #134A9B);
+
+        font-family: "Proxima Nova Bold",sans-serif;
+        font-size: 3rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%;
+        letter-spacing: -0.03rem;
+    }
+    #general .content__title span{
+        color: var(--SECONDARY-blue-500, #1AB7DA);
+        text-align: justify;
+    }
+    #general .content__text{
+        color: var(--PRIMARY-blue-400, #1E60C1);
+        text-align: justify;
+        font-family: "Proxima Nova Semibold",sans-serif;
+        font-size: 1.5rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 150%; /* 2.25rem */
+    }
+    #general .questions__first-image{
+        width: 39.20288rem;
+        height: 26.25rem;
+        border-radius: 1.5rem;
+    }
+    #general .questions__second{
+        display: flex;
+        width: 87.4375rem;
+        height: 30.1875rem;
+        border-radius: 1.5rem;
+        background: #F6FAFF;
+    }
+    #general .questions__second-list{
+        display: flex;
+        width: 35.375rem;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1.5rem;
+        margin-top: 2.79rem;
+        margin-left: 3.59rem;
+    }
+    #general .list__title{
+        color: var(--PRIMARY-blue-400, #1E60C1);
+        text-align: justify;
+        font-family: "Proxima Nova Semibold",sans-serif;
+        font-size: 1.5rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 150%; /* 2.25rem */
+    }
+    #general .list__content{
+        display: flex;
+        align-items: flex-start;
+        gap: 0.625rem;
+    }
+    #general .list__content svg{
+        width: 1.206rem;
+        height: 0.83494rem;
+    }
+    #general .list__content-text{
+        color: var(--PRIMARY-blue-700, #0D356E);
+        text-align: justify;
+
+        font-family: "Proxima Nova Regular",sans-serif;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%; /* 1.5rem */
+    }
+    #general .questions__second-image{
+        width: 37.625rem;
+        height: 30.1875rem;
+        flex-shrink: 0;
+        border-radius: 1.5rem;
+        margin-left: 6.84rem;
+    }
+    #general .general__health{
+        position: relative;
+        height: 76.875rem;
+        flex-shrink: 0;
+        background: var(--PRIMARY-blue-500, #134A9B);
+    }
+    #general .general__health-bler-311{
+        position: absolute;
+        top: 0;
+        left: 6rem;
+        width: 48.5rem;
+        height: 12.625rem;
+        flex-shrink: 0;
+        background: var(--PRIMARY-blue-500, #134A9B);
+    }
+    #general .general__health-bler-312{
+        position: absolute;
+        top: 12.63rem;
+        left: 6rem;
+        width: 48.5rem;
+        height: 5.125rem;
+        flex-shrink: 0;
+        background: linear-gradient(180deg, #134A9B 0%, rgba(19, 74, 155, 0.00) 100%);
+    }
+    #general .general__health-title{
+        position: absolute;
+        top: 5.41rem;
+        left: 6.22rem;
+        z-index: 1;
+        width: 32.20606rem;
+        color: var(--greyscaletext-0, #FFF);
+
+        font-family: "Proxima Nova Bold",sans-serif;
+        font-size: 3rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%;
+        letter-spacing: -0.03rem;
+    }
+    #general .general__health-title span{
+        color: var(--SECONDARY-blue-400, #45DDFF);
+    }
+    #general .general__check{
+        position: absolute;
+        top: 19.5rem;
+        left: 6.25rem;
+        z-index: 1;
+        display: inline-flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5625rem;
+    }
+    #general .general__check-item{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.8125rem;
+    }
+    #general .item__text{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0.625rem;
+    }
+    #general .item__text svg{
+        width: 1.53475rem;
+        height: 1.0625rem;
+    }
+    #general .item__text p{
+        width: 33.88988rem;
+        color: var(--greyscaletext-0, #FFF);
+
+        font-family: "Proxima Nova Semibold",sans-serif;
+        font-size: 1.25rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 150%; /* 1.875rem */
+    }
+    #general .item__line{
+        width: 35.57738rem;
+        height: 0.0625rem;
+        opacity: 0.3;
+        background: #FFF;
+    }
+    #general .general__health-doctor{
+        position: absolute;
+        top: 0;
+        right: 0;
+        display: inline-flex;
+        padding: 0rem 2.90063rem 1.73069rem 1.0625rem;
+        align-items: center;
+    }
+    #general .doctor__layout{
+        width: 44.97438rem;
+        height: 46.89431rem;
+    }
+    #general .doctor__layout svg{
+        flex-shrink: 0;
+        position: absolute;
+        top: 0;
+        right: 2.9rem;
+    }
+    #general .doctor__layout img{
+        position: absolute;
+        top: 5.98rem;
+        right: 12.71rem;
+        z-index: 1;
+    }
+    #general .doctor__layout-bler{
+        position: absolute;
+        top: 25.65rem;
+        right: 2.9rem;
+        z-index: 2;
+        width: 47.81788rem;
+        height: 10.0975rem;
+        flex-shrink: 0;
+        background: linear-gradient(180deg, rgba(18, 75, 154, 0.00) 0%, rgba(18, 75, 154, 0.44) 44.5%, rgba(18, 75, 154, 0.68) 73.5%, #124B9A 100%);
+    }
+    #general .doctor__layout-text{
+        position: absolute;
+        top: 35.64rem;
+        right: 10.85rem;
+        width: 35.99875rem;
+        height: 11.25rem;
+        flex-shrink: 0;
+        color: var(--greyscaletext-0, #FFF);
+        text-align: justify;
+        font-family: "Proxima Nova Semibold",sans-serif;
+        font-size: 1.25rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 150%; /* 1.875rem */
+    }
+}
